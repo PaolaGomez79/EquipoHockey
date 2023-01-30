@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: #f2d027;
+    font-weight: 600;
+    font-size: 70px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+header figure {
+    background: url('../img/design1_image1.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -61px;
+    width: 150px;
+}
+
+h2 {
+    background-color: #516a8f;
+    color: #f2f2f2;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 3px;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    transform: translateX(20px) translateY(80px);
+}
+
+nav a{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+nav .activo {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 20%;
+    padding-top: 80px;
+    position: relative;
+}
+
+main article {
+    padding-bottom: 15px;
+}
+
+.section-contact p{
+   padding-bottom: 20px;
+}
+
+main ul{
+    list-style: none;
+}
+
+main ul li {
+    padding-bottom: 20px;
+}
+
+main ul li p{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+main h3 {
+    font-family: cursive;
+    font-size: 25px;  
+}
+
+main p {
+    font-size: 20px;
+}
+
+.anchor-contact {
+    text-decoration: underline black;
+}
+
+.img1, .img2, .img3{
+    margin-left: 300px;
+    width: 250px;
+}
+
