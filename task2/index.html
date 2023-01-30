@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>MDHL</title>
+    <!-- <link rel="stylesheet" href="./assets/styles/style1.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/styles/style2.css"> -->
+    <link rel="stylesheet" href="./assets/styles/style3.css">
+</head>
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <figure></figure>
+        <img class="logo" src="./assets/img/LogoMightyDucks-01.png" alt="logo">
+        <h2>Upcoming Events</h2>
+    </header>
+    <nav>
+        <a class="activo" href="#">Home</a> 
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <ul>
+                    <li>
+                        <h3>August 4</h3>
+                        <p>MDSL Fundraiser</p>
+                    </li>
+                    <li>
+                        <h3>August 16</h3>
+                        <p>Season Kick-off: Meet the Teams</p>
+                    </li>
+                    <li>
+                        <h3>September 1</h3>
+                        <p>First Game of the Season (Check Game Schedule for details)</p>
+                    </li>
+                </ul>
+                <figure class="contenedor-img">
+                    <img class="img1" src="./assets/img/hockey_1.jpg" alt="hockey_1">
+                </figure>
+            </article>
+        </section>
+    </main>
+
+<!-- <script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script> --> 
+</body>
+</html>
