@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    background-color: #eff9fd;
+    color: #21267e;
+    font-family: 'Comic Neue';
+    font-weight: 600;
+    font-size: 60px;
+    position:sticky;
+}
+
+header figure {
+    background: url('../img/design1_image2.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+}
+
+.logo {
+    border: 3px solid #031859;
+    position: absolute;
+    margin-left: 5%;
+    transform: translateY(140px);
+    width: 100px;
+}
+
+h2 {
+    background-color: #d4e9f3;
+    color: #A61C28;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 3px;
+    text-align: center;
+}
+
+span {
+    display: none;
+}
+
+nav {
+    position: absolute;
+    transform: translateX(1050px) translateY(-470px); 
+ 
+}
+
+nav a{
+    background-color: #457ABF;
+    border: 2px solid black;
+    box-shadow: 0.15em 0.15em  rgba(0,0,0,0.4);;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+nav .activo {
+    background-color: #70AD47;
+}
+
+main {
+    margin-left: 20%;
+    padding-top: 80px;
+    position: relative;
+}
+
+main article {
+    padding-bottom: 15px;
+}
+
+.section-contact p{
+   padding-bottom: 20px;
+}
+
+main ul{
+    list-style: none;
+}
+
+main ul li {
+    padding-bottom: 20px;
+}
+
+main ul li p{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+main h3 {
+    font-family: cursive;
+    font-size: 25px;  
+}
+
+main p {
+    font-size: 20px;
+}
+
+.anchor-contact {
+    text-decoration: underline black;
+}
+
+.img1, .img2, .img3{
+    margin-left: 280px;
+    width: 250px;
+}
