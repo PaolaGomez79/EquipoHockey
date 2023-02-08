@@ -60,14 +60,14 @@
                         </div>
                     </div>
                     <div class="contenedor-generos">
-                        <label class="titulo-etiqueta" for="gender">Gender:</label>
+                        <label class="titulo-etiqueta">Gender:</label>
                         <label for="female"><span class="radio"></span>Female</label>
                         <input type="radio" name="gender" id="female" value="female">
                         <label for="male"><span class="radio"></span>Male</label>
                         <input type="radio" name="gender" id="male" value="male">
                     </div>
                     <div class="contenedor-educacion">
-                        <label class="titulo-etiqueta" for="">Grade:</label>
+                        <label class="titulo-etiqueta" >Grade:</label>
                         <input type="radio" name="education" id="education" value="pre_school">
                         <label for="education">Pre-School</label>
                         <input type="radio" name="education" id="1" value="1st">
@@ -84,9 +84,9 @@
                 </fieldset>
                 <fieldset>
                     <legend>Which elementary school do you live near?</legend>
-                    <label class="titulo-etiqueta" for="">Closest School:</label>
-                    <select name="school" id="">
-                        <option value=""></option>
+                    <label class="titulo-etiqueta">Closest School:</label>
+                    <select name="school" required>
+                        <option value="">Elige una opcion</option>
                         <option value="AJ">AJ Katzenmaier</option>
                         <option value="Gre">Greenbay</option>
                         <option value="HAY">Howard A Yeager</option>
@@ -143,7 +143,7 @@
                     <label class="titulo-etiqueta" for="parent">Parent/GuardianSignature:</label>
                     <input type="text" name="parent" id="parent" required>
                     <label class="titulo-etiqueta" for="date">Date:</label>
-                    <input type="date" name="date" id="date" value="date" required>
+                    <input type="date" name="date" id="date" required>
                 </div>
                 <div class="contenedor-botones">
                     <input type="submit" value="submit">
